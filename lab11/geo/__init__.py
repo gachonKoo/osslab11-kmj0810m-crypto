@@ -1,4 +1,4 @@
-from .area import circle, rectangle
-from .distance import euclid, manhattan
+from .area import circle_area, rectangle_area
+from .distance import euclidean, manhattan
 
-__all__ = ["circle", "rectangle", "euclid", "manhattan"]
+__all__ = ["circle_area", "rectangle_area", "euclidean", "manhattan"]
