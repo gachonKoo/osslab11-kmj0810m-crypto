@@ -1,7 +1,7 @@
 import math
 
-def circle(radius):
-  return math.pi * radius * radius
+def circle_area(r):
+  return math.pi * r * r
 
-def recrangle(width, height):
-  return width * height
+def recrangle_area(w, h):
+  return w * h
